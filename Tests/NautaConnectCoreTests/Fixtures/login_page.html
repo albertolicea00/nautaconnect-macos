@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Test fixture: anonymized capture of the ETECSA captive portal login page. -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Bienvenido</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="/nauta_etecsa/LoginURL/css/wifi.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/nauta_etecsa/LoginURL/js/jquery.js"></script>
+		<script type='text/javascript' src='/nauta_etecsa/LoginURL/js/jsLocale_es_ES.js'></script>
+	</head>
+<body>
+	<div id="contenedor">
+<script type='text/javascript' src='/nauta_etecsa/LoginURL/js/validate.js'></script>
+<script type='text/javascript'>
+	var currentURL = new RegExp("//nauta_etecsa/LoginURL/pc_login.jsp");
+</script>
+<header>
+	<ul id="menu_lang" class="clearfix">
+		<li class="sel" id="es_ESsel"><a href="#" onclick="javascript:switchLang('es_ES')">Espa&ntilde;ol</a></li>
+		<li class="" id="en_USsel"><a href="#" onclick="javascript:switchLang('en_US')">English</a></li>
+	</ul>
+	<form id="changelang" action="#" method="post">
+	    <input type="hidden" value="" id="lang" name="lang"/>
+	    <input type="hidden" value="" id="currentURL" name="currentURL"/>
+	<input type='hidden' name='CSRFHW' value='39dd52d464cb68d8e512d64a56f274d9' /></form>
+</header>
+		<div id="int" style="width:500px;">
+	<div class="blq">
+		<div class="title">Bienvenido</div>
+		<div class="blq_int clearfix">
+			<form class="form" action="https://secure.etecsa.net:8443//LoginServlet" method="post" id="formulario">
+				<input type="hidden" name="wlanuserip" id="wlanuserip" value="10.181.141.250"/>
+	            <input type="hidden" name="wlanacname" id="wlanacname" value=""/>
+	            <input type="hidden" name="wlanmac" id="wlanmac" value="" />
+	            <input type="hidden" name="firsturl" id="firsturl" value="notFound.jsp" />
+				<input type="hidden" name="ssid" id="ssid" value="" />
+				<input type="hidden" name="usertype" id="usertype" value="" />
+				<input type="hidden" name="gotopage" id="gotopage" value="/nauta_etecsa/LoginURL/pc_login.jsp" />
+				<input type="hidden" name="successpage" id="successpage" value="/nauta_etecsa/OnlineURL/pc_index.jsp" />
+				<input type="hidden" name="loggerId" id="loggerId" value="20260715163945368" />
+				<input type="hidden" name="lang" id="lang" value="es_ES" />
+				<label for="nombre">Usuario:</label> <input name="username" id="username" maxlength="253" class="input_text cred" type="text">
+				<br class="clearfloat">
+				<label for="uri">Contrase&ntilde;a:</label> <input name="password" id="password" class="input_text cred" value="" type="password" autocomplete="off">
+				<br class="clearfloat">
+				<label for=""></label>
+                 <input class="btn" name="Enviar" value='Aceptar' type="button" onclick="checkLogin();">
+                 <input class="btn" name="cancel" value='Cancelar' type="reset">
+			<input type='hidden' name='CSRFHW' value='39dd52d464cb68d8e512d64a56f274d9' /></form>
+		</div>
+	</div>
+</div>
+</div>
+</body></html>

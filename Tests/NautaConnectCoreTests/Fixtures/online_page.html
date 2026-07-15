@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Test fixture: synthetic reconstruction of the ETECSA portal online page (post-login). -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Online</title>
+	</head>
+<body>
+	<div id="contenedor">
+		<script type="text/javascript">
+			var attribute = "ATTRIBUTE_UUID=B2F6AAB9A9868BABC0BDA09B7F0E26FF&CSRFHW=39dd52d464cb68d8e512d64a56f274d9";
+			function logout() {
+				var url = "/LogoutServlet?" + attribute + "&wlanuserip=10.181.141.250&remove=1";
+				window.location = url;
+			}
+		</script>
+		<form class="form" action="https://secure.etecsa.net:8443/EtecsaQueryServlet" method="post" id="formulario">
+			<input type="hidden" name="op" id="op" value="getLeftTime" />
+			<input type="hidden" name="wlanuserip" id="wlanuserip" value="10.181.141.250" />
+			<input type="hidden" name="ATTRIBUTE_UUID" id="ATTRIBUTE_UUID" value="B2F6AAB9A9868BABC0BDA09B7F0E26FF" />
+			<input type='hidden' name='CSRFHW' value='39dd52d464cb68d8e512d64a56f274d9' />
+		</form>
+		<div id="onlineTime">04:29:37</div>
+	</div>
+</body></html>
