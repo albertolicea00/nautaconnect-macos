@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icon.svg" width="96" alt="NautaConnect logo"/>
+<img src="assets/app-icon-macos.svg" width="96" alt="NautaConnect logo"/>
 
 # NautaConnect for macOS
 
@@ -8,7 +8,7 @@
 
 ![Platform](https://img.shields.io/badge/platform-macOS%2012%2B-000066)
 ![Swift](https://img.shields.io/badge/Swift-5.7-F05138?logo=swift&logoColor=white)
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![UI](https://img.shields.io/badge/UI-Espa%C3%B1ol%20%7C%20English-00CCFF)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
@@ -61,4 +61,4 @@ NautaConnect is an independent open-source project. It is **not** affiliated wit
 
 ## License
 
-[GPL-3.0](LICENSE) © NautaConnect contributors
+[MIT](LICENSE) © NautaConnect contributors
