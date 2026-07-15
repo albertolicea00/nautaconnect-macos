@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/app-icon-macos.svg" width="96" alt="NautaConnect logo"/>
+<img src="icon.svg" width="96" alt="NautaConnect logo"/>
 
 # NautaConnect for macOS
 
