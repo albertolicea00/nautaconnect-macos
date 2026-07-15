@@ -48,8 +48,8 @@ Building from source, the portal protocol, architecture and everything technical
 
 NautaConnect is a family of small native apps, one per platform, no shared bloat:
 
-- **[nautaconnect-windows](../../../nautaconnect-windows)** — native system-tray app for Windows
-- **[nautaconnect-extension](../../../nautaconnect-extension)** — Chrome & Firefox extension
+- **[nautaconnect-windows](https://github.com/albertolicea00/nautaconnect-windows)** — native system-tray app for Windows
+- **[nautaconnect-extension](https://github.com/albertolicea00/nautaconnect--extension)** — Chrome & Firefox extension
 
 ## Contributing
 
