@@ -61,4 +61,4 @@ NautaConnect is an independent open-source project. It is **not** affiliated wit
 
 ## License
 
-[MIT](LICENSE) © NautaConnect contributors
+Licensed under the [MIT](LICENSE) License.
